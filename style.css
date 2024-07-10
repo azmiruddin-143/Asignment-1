@@ -3,15 +3,22 @@
 body {
     font-family: "Azeret Mono", monospace;
     margin: 0;
+
 }
 
-    /* header style start */
+* {
+    scroll-behavior: smooth;
+}
+
+/* header style start */
 
 header nav {
     display: flex;
     justify-content: space-between;
     padding: 10px 120px;
+    gap: 150px;
     align-items: center;
+
 }
 
 header nav .nav-title h3 {
@@ -25,7 +32,15 @@ header nav .nav-button button {
     padding: 17px 24px 17px 24px;
 }
 
- 
+
+header nav .nav-button button:hover {
+    background: rgb(13, 19, 33);
+    color: white;
+    transition: 0.6s;
+
+}
+
+
 
 .banner-section {
     display: flex;
@@ -35,7 +50,8 @@ header nav .nav-button button {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 50px 0px;
+    padding: 100px 0px;
+
 }
 
 .banner-section h1 {
@@ -65,12 +81,19 @@ header nav .nav-button button {
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
-    margin-top: 15px;
+    margin-top: 30px;
+    scroll-behavior: smooth;
+}
+
+.banner-section button:hover {
+    background: transparent;
+    color: black;
+    transition: 1.2s;
 }
 
 /* header style start */
 
-   /* main style start */
+/* main style start */
 main {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -99,6 +122,7 @@ main .dev-title p {
 main .step-1 {
     display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 16px;
     margin: 100px auto;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
@@ -134,12 +158,21 @@ main .step-1 .step1-title button {
     margin-top: 10px;
 }
 
+main .step-1 .step1-title button:hover {
+    background: rgb(13, 19, 33);
+    color: white;
+    transition: 0.6s;
+}
+
+
+
 
 /* step-2 style start */
 
 main .step-2 {
     display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 16px;
     gap: 50px;
     margin: 100px auto;
@@ -174,12 +207,18 @@ main .step-2 .step2-title button {
     margin-top: 10px;
 }
 
+main .step-2 .step2-title button:hover {
+    background: rgb(13, 19, 33);
+    color: white;
+    transition: 0.6s;
+}
 
 /* step-3 style start */
 
 main .step-3 {
     display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 16px;
     margin: 100px auto;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
@@ -212,6 +251,13 @@ main .step-3 .step3-title button {
     font-weight: 400;
     margin-top: 10px;
 }
+
+main .step-3 .step3-title button:hover {
+    background: rgb(13, 19, 33);
+    color: white;
+    transition: 0.6s;
+}
+
 
 
 /* main style end */
@@ -426,6 +472,9 @@ main .step-3 .step3-title button {
     width: 80%;
     margin: 100px auto;
     border-radius: 16px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.357);
+
 }
 
 .contact .contact-title h1 {
@@ -472,6 +521,14 @@ main .step-3 .step3-title button {
     border: none;
     outline: none;
 }
+
+.contact .c-input input[type=submit]:hover {
+    background: rgb(13, 19, 33);
+    color: white;
+    transition: 0.6s;
+}
+
+
 
 /* contact style start */
 
