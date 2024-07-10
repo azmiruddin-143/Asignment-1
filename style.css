@@ -247,3 +247,150 @@ main .step-3 .step3-title button {
     border-radius: 16px;
 }
 
+.my-target .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+    padding: 60px 0px;
+}
+
+.my-target .my-target-title h1 {
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+
+.my-target .my-target-title p {
+    width: 50%;
+    margin: auto;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+
+.my-target .card .html-card {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 30px;
+}
+
+.my-target .card .css-card {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 30px
+}
+
+.my-target .card .javascript-card {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 30px
+}
+
+.my-target .html-card h1 {
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.my-target .html-card p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 70%;
+   
+}
+
+.my-target .html-card a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    border: none;
+    background: none;
+}
+
+
+/* card css start */
+
+.my-target .css-card h1 {
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.my-target .css-card p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 70%;
+}
+
+.my-target .css-card a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    border: none;
+    background: none;
+}
+
+
+/* javascript css start */
+
+
+.my-target .javascript-card h1 {
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.my-target .javascript-card p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 70%;
+}
+
+.my-target .javascript-card a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    border: none;
+    background: none;
+}
