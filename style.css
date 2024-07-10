@@ -8,7 +8,7 @@ header nav {
 
     display: flex;
     justify-content: space-between;
-    padding: 10px 100px
+    padding: 10px 120px
 }
 
 header nav .nav-title h3 {
@@ -204,5 +204,46 @@ main .step-3 .step3-title button {
     font-size: 16px;
     font-weight: 400;
     margin-top: 10px;
+}
+
+
+.video-section {
+    background: rgb(255, 255, 255);
+    padding: 100px 0px;
+}
+
+.video-section .video-title h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.video-section .video-title p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+
+}
+
+.video-section .video {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    border-radius: 16px;
+    border: 1px solid #bcbcbc;
+    width: 80%;
+    margin: 60px auto;
+}
+
+.video-section .video iframe {
+    border-radius: 16px;
 }
 
